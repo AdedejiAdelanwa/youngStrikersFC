@@ -8,25 +8,55 @@ The header session */
     height: 20vh;
     color: #1f5913;
 }
-#header #clubLogo {
-    width: 15%;
-    height: auto;
-    border: 2px solid red;
-
+#club-brand {
+    display: flex;
+    width: 50%;
+    margin-left: 10px;
 }
-#header #clubLogo img {
+@media only screen and (max-width: 600px) {
+    #club-brand {
+        width: 100%;
+    }
+}
+#header #club-brand img {
     display: block;
-    width: 100%;
+    width: 30%;
     height: 100%;
-
 }
-#header h1 {
-    padding-top: 40px;
-    padding-left: 10px;
-    border: 2px solid red;
+#header h2 {
+    padding-top: 30px;
+    margin: 20px 10px 20px 10px;
     font-family: 'Teko', sans-serif;
+    width: 70%;
 }
 #top-nav {
     background-color: #1f5913;
-    color: #fff !important;
+}
+
+/* Footer Section */
+#footer {
+    background: #272727;
+}
+#social-links {
+    border: 2px solid red;
+}
+#social-links #social-icons {
+    font-size: 30px;
+    list-style-type: none;
+    display: flex;
+}
+#social-icons li {
+    padding-right: 20px;
+}
+#social-icons a {
+    color: #1f5913;
+    margin-left: 20px;
+}
+#footer-address {
+    display: flex;
+}
+#club-adress {
+    border: 2px solid red;
+    text-align: right;
+    padding-left: 20px;  
 }
