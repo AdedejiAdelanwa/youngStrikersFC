@@ -33,6 +33,13 @@ The header session */
     background-color: #1f5913;
 }
 
+/* Slider Section */
+#contact-btn:hover {
+    border-radius: 15px;
+    background: #ffc107;
+    color: #1f5913;
+}
+
 /* Footer Section */
 #footer {
     background: #272727;
