@@ -28,6 +28,7 @@ The header session */
     margin: 20px 10px 20px 10px;
     font-family: 'Teko', sans-serif;
     width: 70%;
+    color: #1f5913;
 }
 #top-nav {
     background-color: #1f5913;
@@ -38,6 +39,11 @@ The header session */
     border-radius: 15px;
     background: #ffc107;
     color: #1f5913;
+}
+
+/* News Section */
+.news-card {
+    margin: 0 auto;
 }
 
 /* Footer Section */
