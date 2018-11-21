@@ -5,7 +5,7 @@ The header session */
 #header {
     background-color:#ffc107;
     display: flex;
-    height: 20vh;
+    height: 15vh;
     color: #1f5913;
 }
 #club-brand {
@@ -38,12 +38,32 @@ The header session */
 #contact-btn:hover {
     border-radius: 15px;
     background: #ffc107;
-    color: #1f5913;
+    color: #fff;
 }
 
 /* News Section */
+.news-column {
+    margin-bottom: 20px;  
+}
 .news-card {
     margin: 0 auto;
+}
+
+/* Success Section */
+.success-column {
+    margin-bottom: 20px;
+}
+
+/* Kits */
+#kits {
+    margin-bottom: 20px;
+}
+#kits #jerseys {
+
+}
+.jersey {
+    width: 64px;
+    height: auto;
 }
 
 /* Footer Section */
