@@ -74,7 +74,7 @@ The header session */
     align-content: center;
 }
 #social-links #social-icons {
-    font-size: 30px;
+    font-size: 20px;
     list-style-type: none;
     display: flex;
 }
@@ -91,9 +91,6 @@ The header session */
 #club-adress {
     text-align: right;
     padding-left: 20px;  
-}
-#footer-legal {
-    background-color: #000;
 }
 #dev {
     font-size: 11px;
