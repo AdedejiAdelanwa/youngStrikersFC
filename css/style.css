@@ -2,8 +2,11 @@
 
 /* The Homepage
 The header session */
+body p {
+    font-family: 'Poppins', sans-serif;
+}
 #header {
-    background-color:#ffc107;
+    background-color:#fbc02d;
     display: flex;
     height: 15vh;
     color: #1f5913;
@@ -58,9 +61,7 @@ The header session */
 #kits {
     margin-bottom: 20px;
 }
-#kits #jerseys {
 
-}
 .jersey {
     width: 64px;
     height: auto;
@@ -88,10 +89,34 @@ The header session */
 #footer-address {
     display: flex;
 }
+.footer-location {
+    margin-top: 20px;
+}
 #club-adress {
     text-align: right;
     padding-left: 20px;  
 }
-#dev {
-    font-size: 11px;
+  /* About Page */
+  .jumbotron h1 {
+    font-family: 'Teko', sans-serif;
 }
+#history {
+    background-color: #fbc02d;
+    /* color: #1f5913;*/ 
+} 
+#history .history-icons {
+    background-color: #1f5913;
+    color: #fbc02d;
+    padding: 40px;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.trophies{
+    width: 120px;
+    height: 200px;
+}
+ 
+ 
+ 
