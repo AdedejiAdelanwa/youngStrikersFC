@@ -112,10 +112,32 @@ body p {
     border-radius: 5px;
     margin-bottom: 15px;
 }
+.section-test {
+    border: 2px solid red;
+}
+.sec-heading {
+    color: #1f5913;
+}
+#BOT {
+    padding: 20px;
+}
+.bot-member {
+    border: 2px solid tomato;
+}
+.bot-member .bot-image {
+    display: block;
+    margin-top:10px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 .trophies{
     width: 120px;
     height: 200px;
+    display: block;
+    margin-top:10px;
+    margin-left: auto;
+    margin-right: auto;
 }
  
  
