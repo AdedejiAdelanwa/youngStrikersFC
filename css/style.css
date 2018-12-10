@@ -3,7 +3,7 @@
 /* The Homepage
 The header session */
 #header {
-    background-color:#ffc107;
+    background-color:#fbc02d;
     display: flex;
     height: 20vh;
     color: #1f5913;
@@ -64,4 +64,91 @@ The header session */
 }
 #dev {
     font-size: 11px;
+}
+
+
+
+/*------------------
+CONTACT-PAGE
+----------------------------------------*/
+.contactMargining
+{
+    margin: 40px auto;
+}
+.contactDivBackGround{
+background:#1f5913;
+height: 300px;
+text-align: center;
+color: white;
+}
+.contactBordering{
+border: 2px solid #fbc02d;
+margin: 25px 0 25px 10px;
+padding: 30px 0;
+}
+#contact-address,#contact-address,#contact-address,h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 15px 0;
+}
+.form-input-radius{
+    border-radius: 15px;
+}
+.bnt-hover:hover{
+    background: green;
+    width: 80px;
+    color: yellow;
+}
+
+        /*-----------------------------
+        EVENT_PAGE
+        ----------------------------------*/
+
+.event-margin{
+    margin: 40px auto;
+}
+.fixture-bg-img{
+    background:url("../images/football.jpg");
+    background-size:cover;
+    padding: 20px 0;
+    position: relative;
+}
+table tr:nth-child(odd){
+ background-color:#1f5913;
+ text-transform: uppercase;
+}
+table tr:nth-child(even){
+ background-color:lightgreen;
+ text-transform: uppercase;
+ opacity: 0.7;
+}
+tbody tr td:nth-child(odd){
+    color:#fbc02d;
+    font-weight: 500px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+tbody tr td:nth-child(even){
+    color:white;
+    font-weight: 500px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.fixture-overlay a{
+    text-decoration: none;
+    color: #fbc02d;
+}
+.fixture-overlay a:hover{
+    color: white;
+}
+.btn-green{
+    background: #1f5913;
+}
+.card-body a{
+    text-decoration: none;
+    color: white;
+    background: #1f5913;
 }
