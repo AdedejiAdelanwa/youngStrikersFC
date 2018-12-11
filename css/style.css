@@ -2,10 +2,13 @@
 
 /* The Homepage
 The header session */
+body p {
+    font-family: 'Poppins', sans-serif;
+}
 #header {
     background-color:#fbc02d;
     display: flex;
-    height: 20vh;
+    height: 15vh;
     color: #1f5913;
 }
 #club-brand {
@@ -28,9 +31,40 @@ The header session */
     margin: 20px 10px 20px 10px;
     font-family: 'Teko', sans-serif;
     width: 70%;
+    color: #1f5913;
 }
 #top-nav {
     background-color: #1f5913;
+}
+
+/* Slider Section */
+#contact-btn:hover {
+    border-radius: 15px;
+    background: #ffc107;
+    color: #fff;
+}
+
+/* News Section */
+.news-column {
+    margin-bottom: 20px;  
+}
+.news-card {
+    margin: 0 auto;
+}
+
+/* Success Section */
+.success-column {
+    margin-bottom: 20px;
+}
+
+/* Kits */
+#kits {
+    margin-bottom: 20px;
+}
+
+.jersey {
+    width: 64px;
+    height: auto;
 }
 
 /* Footer Section */
@@ -41,7 +75,7 @@ The header session */
     align-content: center;
 }
 #social-links #social-icons {
-    font-size: 30px;
+    font-size: 20px;
     list-style-type: none;
     display: flex;
 }
@@ -55,13 +89,57 @@ The header session */
 #footer-address {
     display: flex;
 }
+.footer-location {
+    margin-top: 20px;
+}
 #club-adress {
     text-align: right;
     padding-left: 20px;  
 }
-#footer-legal {
-    background-color: #000;
+  /* About Page */
+  .jumbotron h1 {
+    font-family: 'Teko', sans-serif;
 }
+#history {
+    background-color: #fbc02d;
+    /* color: #1f5913;*/ 
+} 
+#history .history-icons {
+    background-color: #1f5913;
+    color: #fbc02d;
+    padding: 40px;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+.section-test {
+    border: 2px solid red;
+}
+.sec-heading {
+    color: #1f5913;
+}
+#BOT {
+    padding: 20px;
+}
+.bot-member {
+    border: 2px solid tomato;
+}
+.bot-member .bot-image {
+    display: block;
+    margin-top:10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.trophies{
+    width: 120px;
+    height: 200px;
+    display: block;
+    margin-top:10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+<<<<<<< HEAD
 #dev {
     font-size: 11px;
 }
@@ -152,3 +230,8 @@ tbody tr td:nth-child(even){
     color: white;
     background: #1f5913;
 }
+=======
+ 
+ 
+ 
+>>>>>>> e989627f6cbaa465d485565d89b884a347f814c5

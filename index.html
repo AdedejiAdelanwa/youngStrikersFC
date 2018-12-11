@@ -7,12 +7,14 @@
     <link rel="shortcut icon" href="#" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.22/css/uikit.min.css" />
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Teko:700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 </head>
 <body>
-    <header id ="header">
+    <header id ="header" class="text-success">
       <div id="club-brand">
           <img src="images/ysPic/youngStrikers.png" alt="young strikers logo" width="150" height="200" />
           <h2>Young Strikers' Fc</h2>
@@ -32,28 +34,191 @@
             </div>
           </div>
     </nav>
+    <main>
+      <section id="slider">
+          <div class="uk-position-relative uk-visible-toggle uk-light" uk-slideshow="animation: fade"  data-uk-slideshow="{autoplay:true}">
+              <ul class="uk-slideshow-items">
+                  <li>
+                      <div class="uk-position-cover uk-animation-kenburns uk-animation-reverse uk-transform-origin-center-left" >
+                          <img src="images/index/slider/pace.jpg" alt="" uk-cover>
+                          <div class="uk-overlay-primary uk-position-cover"></div>
+                          <div class="uk-overlay uk-position-center uk-light">
+                              <h1>The Desert Warriors</h1>
+                                <button class="uk-button uk-button-default uk-button-large" id="contact-btn">Let's Talk</button>
+                          </div>
+                      </div>
+                  </li>
+                  <li>
+                      <div class="uk-position-cover uk-animation-kenburns uk-animation-reverse uk-transform-origin-top-right">
+                          <img src="images/index/slider/scan0006.jpg" alt="" uk-cover>
+                          <div class="uk-overlay-primary uk-position-cover"></div>
+                          <div class="uk-overlay uk-position-center uk-light">
+                              <h1>The Desert Warriors</h1>
+                              <button class="uk-button uk-button-default uk-button-large" id="contact-btn">Let's Talk</button>
+                          </div>
+                      </div>
+                  </li>
+                  <li>
+                      <div class="uk-position-cover uk-animation-kenburns uk-animation-reverse uk-transform-origin-bottom-left">
+                          <img src="images/index/slider/scan0007.jpg" alt="" uk-cover>
+                          <div class="uk-overlay-primary uk-position-cover"></div>
+                          <div class="uk-overlay uk-position-center uk-light">
+                              <h1>The Desert Warriors</h1>
+                              <button class="uk-button uk-button-default uk-button-large" id="contact-btn">Let's Talk</button>
+                          </div>
+                      </div>
+                  </li>
+              </ul>
+            <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
+            <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
+        </div>
+    </section>
+    <hr />
+    <section id="index-news">
+    <div class="row">
+       <div class="col-md-12 text-center"><h3 class="font-weight-bold text-success">Latest News</h3></div>
+       <div class="col-md-4 news-column">
+            <div class="card news-card" style="width: 20rem;">
+                <img class="card-img-top" src="images/index/invite/play.JPG" alt="Card image cap">
+                <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn btn-outline-success">Go somewhere</a>
+                </div>
+            </div>
+       </div>
+       <div class="col-md-4 news-column">
+            <div class="card news-card" style="width: 20rem;">
+                <img class="card-img-top" src="images/index/invite/play.JPG" alt="Card image cap">
+                <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn btn-outline-success">Go somewhere</a>
+                </div>
+            </div>
+       </div>
+       <div class="col-md-4 news-column">
+            <div class="card news-card" style="width: 20rem;">
+                <img class="card-img-top" src="images/index/invite/play.JPG" alt="Card image cap">
+                <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn btn-outline-success">Go somewhere</a>
+                </div>
+            </div>
+       </div> 
+    </div>        
+    </section>
+    <hr />
+    <section id="success-stories">
+        <div class="row">
+                <div class="col-md-12 text-center"><h3 class="font-weight-bold text-success">Highlights</h3></div>
+                <div class="col-md-4 success-column">
+                        <div class="card news-card" style="width: 20rem;">
+                            <video width="320" height="240" controls>
+                                <source src="images/index/Highlights/thePurposeOfLife.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                            <div class="card-body">
+                                <p class="card-text">Young Striker FC vs Green Horn FC</p>
+                            </div>
+                        </div>    
+                </div>
+                   <div class="col-md-4 success-column">
+                        <div class="card news-card" style="width: 20rem;">
+                            <video width="320" height="240" controls>
+                                <source src="images/index/Highlights/thePurposeOfLife.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                            <div class="card-body">
+                                <p class="card-text">Young Striker FC vs Arsenal FC</p>
+                            </div>
+                        </div>
+                   </div>
+                   <div class="col-md-4 success-column">
+                        <div class="card news-card" style="width: 20rem;">
+                            <video width="320" height="240" controls>
+                                <source src="images/index/Highlights/thePurposeOfLife.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                            <div class="card-body">
+                                <p class="card-text">Young Striker FC vs Calgary FC</p>
+                            </div>
+                        </div>
+                   </div>
+            </div>
+    </section>
+    <hr />
+    <section class="row">
+        <div class="col-md-12 text-center"><h3 class="font-weight-bold text-success">Testimonials</h3></div>
+        <div class="col-md-4">
+            <div class="card news-card" style="width: 20rem;">
+                <img class="card-img-top" src="images/index/testimonials/obaGoal.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <p class="card-text lead">Obafemi Martins</p>
+                    <p class="card-text">Striker,Juventus FC</p>
+                    <a href="#" class="btn btn btn-outline-success">Read Story</a>
+                </div>
+            </div>  
+        </div>
+        <div class="col-md-4">
+            <div class="card news-card" style="width: 20rem;">
+                <img class="card-img-top" src="images/index/testimonials/obaGoal.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <p class="card-text lead">Obafemi Martins</p>
+                    <p class="card-text">Striker,Juventus FC</p>
+                    <a href="#" class="btn btn btn-outline-success">Read Story</a>
+                </div>
+            </div>  
+        </div>
+        <div class="col-md-4">
+            <div class="card news-card" style="width: 20rem;">
+                <img class="card-img-top" src="images/index/testimonials/obaGoal.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <p class="card-text lead">Obafemi Martins</p>
+                    <p class="card-text">Striker,Juventus FC</p>
+                    <a href="#" class="btn btn btn-outline-success">Read Story</a>
+                </div>
+            </div>  
+        </div>
+    </section>
+    <hr />
+    <section class="row" id="kits">
+        <div class="col-md-12 text-center">Our Kits</div>
+        <div class="col-md-12 text-center" id="jerseys">
+            <img src="images/home.png" class="jersey" alt="home jersey" />
+            <img src="images/away.png" class="jersey" alt="away jersey" />
+        </div>
+    </section>
+    </main>
     <footer id="footer" class="container-fluid">
       <div id="footer-address" class="row">
-        <div id="social-links" class="col-md-6">
-            <ul id="social-icons">
-                <li><a href="#"><i class="fab fa-youtube" title="Young Strikers' FC"></i><span class="sr-only">Check us out on Youtube</span></a></li>
-                <li><a href="#"><i class="fab fa-facebook" title="Young Strikers' FC"></i><span class="sr-only">Follow us on facebook</span></a></li>
-                <li><a href="#"><i class="fab fa-instagram" title="Young Strikers' FC"></i><span class="sr-only">Follow us on instagram</span></a></li>
-              </ul>
-        </div>
-        <div id="club-adress" class="col-md-6 text-white">
+        <div id="club-adress" class="col-md-8 text-white text-left footer-location">
           <p><b><i class="fas fa-map-marker-alt"></i></b><br/>Campus Mini Stadium,<br/>off Igbosere Rd,<br/>Lagos Island,<br/>Lagos Nigeria.<br/><b><i class="fas fa-phone"> : </i></b> +234 805-626-7207, +234 816-165-8129<br/><b><i class="fas fa-mobile"> : </i></b> +234 802-772-6524, +234 802-363-4277<br/><b><i class="fas fa-fax"></i></b> 00234 1 2718677<br/><b><i class="fas fa-globe"></i> : </b>www.youngstrickers.ng<br/><b><i class="fas fa-at"></i> : </b>info@youngstrickers.com, youngstrickers@yahoo.com<br/>youngstrickersfootballclub@yahoo.com</p>
         </div>
-      </div>
-      <div class="row text-white" id="footer-legal">
-        <div class="col-md-12">
-            <span class="float-left">&copy Young Strikers'Fc 2018</span>
-            <span class="float-right text-muted" id="dev">Designed by D3ll</span>
+        <div  class="col-md-4 footer-location">
+                <div style="width: 100%">
+                    <iframe width="100%" height="300" src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;q=2%2C%20Igbosere%20Rd%20Lagos+(young%20strickers%20FC)&amp;ie=UTF8&amp;t=&amp;z=18&amp;iwloc=A&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"><a href="https://www.maps.ie/map-my-route/">Draw map route</a></iframe>
+                </div>
+                <br />
         </div>
       </div>
+      <hr />
+      <div class="row text-white" id="footer-legal">
+            <div class="col-md-9">
+                <span>&copy Young Strikers'Fc 2018</span>
+            </div>
+            <div class="col-md-3" id="social-links">
+                <ul id="social-icons">
+                    <li><a href="#"><i class="fab fa-youtube" title="Young Strikers' FC"></i><span class="sr-only">Check us out on Youtube</span></a></li>
+                    <li><a href="#"><i class="fab fa-facebook" title="Young Strikers' FC"></i><span class="sr-only">Follow us on facebook</span></a></li>
+                    <li><a href="#"><i class="fab fa-instagram" title="Young Strikers' FC"></i><span class="sr-only">Follow us on instagram</span></a></li>
+                </ul>
+            </div>
+        </div>
     </footer>
+          
           <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
           <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
           <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.22/js/uikit.min.js"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.22/js/uikit-icons.min.js"></script>
 </body>
 </html>
