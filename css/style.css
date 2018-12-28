@@ -113,7 +113,7 @@ body p {
     margin-bottom: 15px;
 }
 .section-test {
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 .sec-heading {
     color: #1f5913;
@@ -122,7 +122,7 @@ body p {
     padding: 20px;
 }
 .bot-member {
-    border: 2px solid tomato;
+    /* border: 2px solid tomato; */
 }
 .bot-member .bot-image {
     display: block;
@@ -139,7 +139,6 @@ body p {
     margin-left: auto;
     margin-right: auto;
 }
-<<<<<<< HEAD
 #dev {
     font-size: 11px;
 }
@@ -230,8 +229,3 @@ tbody tr td:nth-child(even){
     color: white;
     background: #1f5913;
 }
-=======
- 
- 
- 
->>>>>>> e989627f6cbaa465d485565d89b884a347f814c5
