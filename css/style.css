@@ -131,6 +131,13 @@ body p {
     margin-right: auto;
 }
 
+.club-mgt {
+    display: block;
+    margin-top:10px;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
 .trophies{
     width: 120px;
     height: 200px;
