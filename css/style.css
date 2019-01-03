@@ -230,6 +230,20 @@ tbody tr td:nth-child(even){
     color: white;
     background: #1f5913;
 }
+
+
+.Gallery-images{
+    border: 2px solid #fbc02d;
+    margin: 25px 0 25px 0px;
+    padding: 30px 0;
+}
+.Gallery-container{
+    border: 2px solid #fbc02d;
+    align-items:
+}
+.Gallery-margin{
+    margin: 40px auto;
+}
 =======
  
  
