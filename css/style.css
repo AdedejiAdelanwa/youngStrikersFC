@@ -10,27 +10,25 @@ body p {
     display: flex;
     height: 15vh;
     color: #1f5913;
+    text-align: center;
 }
-#club-brand {
-    display: flex;
-    width: 50%;
-    margin-left: 10px;
-}
+ 
 @media only screen and (max-width: 600px) {
     #club-brand {
         width: 100%;
     }
 }
-#header #club-brand img {
+#header  img {
     display: block;
-    width: 30%;
+    width: 15%;
     height: 100%;
 }
 #header h2 {
-    padding-top: 30px;
+    padding: 30px;
     margin: 20px 10px 20px 10px;
     font-family: 'Teko', sans-serif;
-    width: 70%;
+    font-size: 45px;
+    width: 85%;
     color: #1f5913;
 }
 #top-nav {
@@ -63,7 +61,7 @@ body p {
 }
 
 .jersey {
-    width: 64px;
+    width: 200px;
     height: auto;
 }
 
@@ -112,23 +110,21 @@ body p {
     border-radius: 5px;
     margin-bottom: 15px;
 }
-.section-test {
-    /* border: 2px solid red; */
-}
 .sec-heading {
     color: #1f5913;
 }
 #BOT {
     padding: 20px;
 }
-.bot-member {
-    /* border: 2px solid tomato; */
-}
+
 .bot-member .bot-image {
     display: block;
     margin-top:10px;
     margin-left: auto;
     margin-right: auto;
+}
+#club-management {
+    justify-content: center;
 }
 
 .club-mgt {
@@ -236,7 +232,6 @@ tbody tr td:nth-child(even){
     color: white;
     background: #1f5913;
 }
-<<<<<<< HEAD
 
 
 .Gallery-images{
@@ -251,10 +246,14 @@ tbody tr td:nth-child(even){
 .Gallery-margin{
     margin: 40px auto;
 }
-=======
+.Gallery-images img {
+    display: block;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;  
+}
  
  
  
->>>>>>> e989627f6cbaa465d485565d89b884a347f814c5
 =======
 >>>>>>> 66cd504769d570c937b27da2c2aba3c3c281b159
