@@ -182,6 +182,24 @@ padding: 30px 0;
     width: 80px;
     color: yellow;
 }
+.map-photo {
+    justify-content: center;
+}
+.home-ground {
+    width: 510px;
+    height: 300px;
+    /* border: 2px solid red; */
+    padding: 0px;
+}
+
+.home-ground img {
+    display: block;
+    max-width: 100%;
+    height: 100%;
+}
+.home-map {
+    /* border: 2px solid red;  */
+}
 
         /*-----------------------------
         EVENT_PAGE
@@ -241,7 +259,6 @@ tbody tr td:nth-child(even){
 }
 .Gallery-container{
     border: 2px solid #fbc02d;
-    align-items:
 }
 .Gallery-margin{
     margin: 40px auto;
